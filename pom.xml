@@ -4,7 +4,7 @@
 
     <groupId>pl.policht</groupId>
     <artifactId>gittesting</artifactId>
-    <version>5.1-SNAPSHOT</version>
+    <version>6.1-SNAPSHOT</version>
     <scm>
         <url>scm:git:https://github.com/michal85so/test.git</url>
         <developerConnection>scm:git:https://github.com/michal85so/test.git</developerConnection>
@@ -12,10 +12,15 @@
         <tag>2.0</tag>
     </scm>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <github.maven.repository>file:///home/michael/repository/maven-repository/</github.maven.repository>
+    </properties>
+
     <distributionManagement>
         <repository>
-            <id>nexus-releases</id>
-            <url>http://localhost:8081/nexus/content/repositories/releases</url>
+            <id>maven-repository</id>
+            <url>${github.maven.repository}</url>
         </repository>
     </distributionManagement>
 
