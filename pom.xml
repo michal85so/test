@@ -4,7 +4,7 @@
 
     <groupId>pl.policht</groupId>
     <artifactId>gittesting</artifactId>
-    <version>8.0</version>
+    <version>8.0-SNAPSHOT</version>
     <scm>
         <url>scm:git:https://github.com/michal85so/test.git</url>
         <developerConnection>scm:git:https://github.com/michal85so/test.git</developerConnection>
