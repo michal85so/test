@@ -6,9 +6,9 @@
     <artifactId>gittesting</artifactId>
     <version>2.0-SNAPSHOT</version>
     <scm>
-        <url>scm:git:ssh://git@github.com:michal85so/test.git</url>
-        <developerConnection>scm:git:ssh://git@github.com:michal85so/test.git</developerConnection>
-        <connection>scm:git:ssh://git@github.com:michal85so/test.git</connection>
+        <url>scm:git:https://github.com/michal85so/test.git</url>
+        <developerConnection>scm:git:https://github.com/michal85so/test.git</developerConnection>
+        <connection>scm:git:https://github.com/michal85so/test.git</connection>
         <tag>2.0</tag>
     </scm>
 
