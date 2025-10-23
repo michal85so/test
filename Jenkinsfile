@@ -6,11 +6,7 @@ pipeline {
                 mvn --version
             }
         }
-        stage('test') {
-            steps{
-                'echo fail; exit 1'
-            }
-        }
+
     }
 
     post {
