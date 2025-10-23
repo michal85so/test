@@ -1,11 +1,22 @@
 pipeline {
-    agent {
-        docker { image 'node:22.21.0-alpine3.22' }
+    agent any
+    options {
+        skipStagesAfterUnstable()
     }
     stages {
+        stage('Build') {
+            steps {
+                echo 'Building'
+            }
+        }
         stage('Test') {
             steps {
-                node --eval "console.log(process.arch,process.platform)"
+                echo 'Testing'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying'
             }
         }
     }
